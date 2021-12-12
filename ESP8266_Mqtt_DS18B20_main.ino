@@ -7,8 +7,8 @@ OneWire  ds(2);
 
 // Update these with values suitable for your network.
 
-const char* ssid = "SkyNet_Home";
-const char* password = "emperor12";
+const char* ssid = "";
+const char* password = "";
 const char* mqtt_server = "192.168.1.103";     /// MQTT  Broker
 
 WiFiClient espClient;
